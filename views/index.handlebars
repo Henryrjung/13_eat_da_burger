@@ -1,8 +1,13 @@
-<h1>Burgers!</h1>
+<div class="jumbotron d-flex justify-content-center">
+  <img class="img-fluid" src="../assets/images/12_burger.jpg" width="500" height="450" alt="burger image">
+</div>
 
-<h2>Burgers that have been devoured</h2>
+<div class="container bm-5">
+  <h1 class="d-flex justify-content-center">Burgers!</h1>
 
-<ul>
+<h2 class="d-flex justify-content-center">Burgers that have been devoured</h2>
+
+<ul class="d-flexlist-group">
   {{#each burger_name}}
   {{#if this.devoured}}
   {{burger_name}}
@@ -10,24 +15,26 @@
   {{/each}}
 </ul>
 
-<h2>Burgers that have not been devoured</h2>
+<h2 class="d-flex justify-content-center">Burgers that have not been devoured</h2>
 
-<ul>
+<p class="d-flex justify-content-center">Please click on the burger name to devour</p>
+
+<ul class="d-flex list-group">
   {{#each burger_name}}
   {{#unless devoured}}
-  
-   {{burger_name}}
+  {{> burgers/devoured devoured=true}}
   {{/unless}}
   {{/each}}
 </ul>
 
-<h2>Add a burger</h2>
-<form class="create-form">
+<h2 class="d-flex justify-content-center">Add a burger</h2>
+<form class="d-flex justify-content-center create-form">
 
   <div class="form-group">
     <label for="ca">Burger name: </label>
-    <input type="text" id="ca" name="name">
+    <input type="text" id="new-burger" name="name">
   </div>
 
-  <button type="submit">Add Burger</button>
+  <button class="btn btn-warning id="add-button" type="submit">Add Burger</button>
 </form>
+</div>

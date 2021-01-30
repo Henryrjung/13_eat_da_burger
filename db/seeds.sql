@@ -1,5 +1,5 @@
-INSERT INTO burgers_db.burgers (burger_name, devoured)
-VALUES 
- ("catfood", true )
-,("dogfood", true )
-,("fake", false );
+USE burgers_db;
+
+INSERT INTO burgers (burger_name) VALUES ('Catfood big mac');
+INSERT INTO burgers (burger_name) VALUES ('The impossible to eat burger');
+INSERT INTO burgers (burger_name) VALUES ('The hair in it burger');
