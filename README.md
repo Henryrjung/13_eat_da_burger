@@ -1,4 +1,5 @@
-  # Eat Da Burger 
+  
+# Eat Da Burger 
 
   ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
@@ -43,4 +44,8 @@
 
   Find me on Github at: [henryrjung](https://github.com/henryrjung)
 
+<<<<<<< HEAD
   You can also send me an email with any questions at: henryjung667@gmail.com
+=======
+  You can also send me an email with any questions at: henryjung667@gmail.com
+>>>>>>> a1eac3ad837fa8edeef6b159f98ec9f2e46b3b27
