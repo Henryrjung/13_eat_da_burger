@@ -5,7 +5,9 @@ CREATE database burgers_db;
 USE burgers_db;
 
 CREATE TABLE burgers (
-,id INT PRIMARY KEY AUTO_INCREMENT
-,burger_name VARCHAR(50) NOT NULL
-devoured BOOLEAN DEFAULT false
+id INT AUTO_INCREMENT NOT NULL,
+burger_name VARCHAR(50) NOT NULL,
+devoured BOOLEAN DEFAULT false,
+createdAt TIMESTAMP NOT NULL,
+PRIMARY KEY(id)
 );
