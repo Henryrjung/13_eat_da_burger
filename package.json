@@ -1,7 +1,7 @@
 {
   "name": "13_eat_da_burger",
   "version": "1.0.0",
-  "description": "",
+  "description": "![badge](https://img.shields.io/badge/license-MIT-brightgreen)",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
